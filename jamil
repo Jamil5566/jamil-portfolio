@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Graphic Designer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Your Name</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I'm a graphic designer with a passion for creating unique and engaging designs. I specialize in logo design, social media graphics, branding, YouTube thumbnails, and cover designs.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="logo-design.jpg" alt="Logo Design">
+          <h3>Logo Design</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="social-media.jpg" alt="Social Media Design">
+          <h3>Social Media Design</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="branding.jpg" alt="Branding">
+          <h3>Branding</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="youtube-thumbnail.jpg" alt="YouTube Thumbnail">
+          <h3>YouTube Thumbnail</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="cover-design.jpg" alt="Cover Design">
+          <h3>Cover Design</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Your Name | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
